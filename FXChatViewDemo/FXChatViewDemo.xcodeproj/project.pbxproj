@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3655532009A4450032111D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655522009A4450032111D /* AppDelegate.swift */; };
+		FF3655552009A4450032111D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655542009A4450032111D /* ViewController.swift */; };
+		FF3655582009A4450032111D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3655562009A4450032111D /* Main.storyboard */; };
+		FF36555A2009A4450032111D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3655592009A4450032111D /* Assets.xcassets */; };
+		FF36555D2009A4450032111D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF36555B2009A4450032111D /* LaunchScreen.storyboard */; };
+		FF3655682009A4450032111D /* FXChatViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655672009A4450032111D /* FXChatViewDemoTests.swift */; };
+		FF3655732009A4450032111D /* FXChatViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655722009A4450032111D /* FXChatViewDemoUITests.swift */; };
+		FF3655832009A5480032111D /* FXChatTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655822009A5480032111D /* FXChatTopView.swift */; };
+		FF3655862009B41D0032111D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3655852009B41D0032111D /* UIColor.swift */; };
+		FF36558F2009F1C80032111D /* FXChatBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36558E2009F1C80032111D /* FXChatBtnView.swift */; };
+		FF365591200A03CC0032111D /* FXChatQuoteFlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF365590200A03CC0032111D /* FXChatQuoteFlashView.swift */; };
+		FF365593200A15740032111D /* FXChatNewsFlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF365592200A15740032111D /* FXChatNewsFlashView.swift */; };
+		FF5CB341200C47FB00EB8A57 /* FXChatNewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CB340200C47FB00EB8A57 /* FXChatNewsListView.swift */; };
+		FF5CB343200C491400EB8A57 /* FXChatNewsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CB342200C491400EB8A57 /* FXChatNewsListCell.swift */; };
+		FF602D15201C6E3D00D4104D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF602D14201C6E3D00D4104D /* UIView.swift */; };
+		FF8CA0D0201B55AD00845571 /* FXChatFlashEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8CA0CF201B55AD00845571 /* FXChatFlashEntity.swift */; };
+		FFAB6F7420200F0B00450CE1 /* FXChatSimpleTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB6F7320200F0B00450CE1 /* FXChatSimpleTopView.swift */; };
+		FFB3C100200EEF9D000DA47F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C0FF200EEF9D000DA47F /* RecommendViewController.swift */; };
+		FFB3C103200EF193000DA47F /* FXWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C102200EF193000DA47F /* FXWelcomeView.swift */; };
+		FFB3C105200F4175000DA47F /* FXWelcomeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3655642009A4450032111D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3655472009A4450032111D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36554E2009A4450032111D;
+			remoteInfo = FXChatViewDemo;
+		};
+		FF36556F2009A4450032111D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3655472009A4450032111D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF36554E2009A4450032111D;
+			remoteInfo = FXChatViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF36554F2009A4450032111D /* FXChatViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXChatViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3655522009A4450032111D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3655542009A4450032111D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3655572009A4450032111D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3655592009A4450032111D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF36555C2009A4450032111D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF36555E2009A4450032111D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3655632009A4450032111D /* FXChatViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXChatViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3655672009A4450032111D /* FXChatViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatViewDemoTests.swift; sourceTree = "<group>"; };
+		FF3655692009A4450032111D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36556E2009A4450032111D /* FXChatViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXChatViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3655722009A4450032111D /* FXChatViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatViewDemoUITests.swift; sourceTree = "<group>"; };
+		FF3655742009A4460032111D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3655822009A5480032111D /* FXChatTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatTopView.swift; sourceTree = "<group>"; };
+		FF3655852009B41D0032111D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FF36558E2009F1C80032111D /* FXChatBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatBtnView.swift; sourceTree = "<group>"; };
+		FF365590200A03CC0032111D /* FXChatQuoteFlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatQuoteFlashView.swift; sourceTree = "<group>"; };
+		FF365592200A15740032111D /* FXChatNewsFlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatNewsFlashView.swift; sourceTree = "<group>"; };
+		FF5CB340200C47FB00EB8A57 /* FXChatNewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatNewsListView.swift; sourceTree = "<group>"; };
+		FF5CB342200C491400EB8A57 /* FXChatNewsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatNewsListCell.swift; sourceTree = "<group>"; };
+		FF602D14201C6E3D00D4104D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FF8CA0CF201B55AD00845571 /* FXChatFlashEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatFlashEntity.swift; sourceTree = "<group>"; };
+		FFAB6F7320200F0B00450CE1 /* FXChatSimpleTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXChatSimpleTopView.swift; sourceTree = "<group>"; };
+		FFB3C0FF200EEF9D000DA47F /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		FFB3C102200EF193000DA47F /* FXWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXWelcomeView.swift; sourceTree = "<group>"; };
+		FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXWelcomeGroupCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF36554C2009A4450032111D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3655602009A4450032111D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36556B2009A4450032111D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3655462009A4450032111D = {
+			isa = PBXGroup;
+			children = (
+				FF3655512009A4450032111D /* FXChatViewDemo */,
+				FF3655662009A4450032111D /* FXChatViewDemoTests */,
+				FF3655712009A4450032111D /* FXChatViewDemoUITests */,
+				FF3655502009A4450032111D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3655502009A4450032111D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF36554F2009A4450032111D /* FXChatViewDemo.app */,
+				FF3655632009A4450032111D /* FXChatViewDemoTests.xctest */,
+				FF36556E2009A4450032111D /* FXChatViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3655512009A4450032111D /* FXChatViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C101200EF005000DA47F /* FXWelcomeView */,
+				FF3655842009B4020032111D /* Extensions */,
+				FF3655802009A4520032111D /* FXChatTopView */,
+				FF3655812009A4BC0032111D /* FXChatBtnView */,
+				FF8CA0D3201B56CE00845571 /* CommonEntity */,
+				FF3655522009A4450032111D /* AppDelegate.swift */,
+				FF3655542009A4450032111D /* ViewController.swift */,
+				FFB3C0FF200EEF9D000DA47F /* RecommendViewController.swift */,
+				FF3655562009A4450032111D /* Main.storyboard */,
+				FF3655592009A4450032111D /* Assets.xcassets */,
+				FF36555B2009A4450032111D /* LaunchScreen.storyboard */,
+				FF36555E2009A4450032111D /* Info.plist */,
+			);
+			path = FXChatViewDemo;
+			sourceTree = "<group>";
+		};
+		FF3655662009A4450032111D /* FXChatViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3655672009A4450032111D /* FXChatViewDemoTests.swift */,
+				FF3655692009A4450032111D /* Info.plist */,
+			);
+			path = FXChatViewDemoTests;
+			sourceTree = "<group>";
+		};
+		FF3655712009A4450032111D /* FXChatViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3655722009A4450032111D /* FXChatViewDemoUITests.swift */,
+				FF3655742009A4460032111D /* Info.plist */,
+			);
+			path = FXChatViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		FF3655802009A4520032111D /* FXChatTopView */ = {
+			isa = PBXGroup;
+			children = (
+				FF3655822009A5480032111D /* FXChatTopView.swift */,
+				FFAB6F7320200F0B00450CE1 /* FXChatSimpleTopView.swift */,
+			);
+			path = FXChatTopView;
+			sourceTree = "<group>";
+		};
+		FF3655812009A4BC0032111D /* FXChatBtnView */ = {
+			isa = PBXGroup;
+			children = (
+				FF36558E2009F1C80032111D /* FXChatBtnView.swift */,
+				FF365590200A03CC0032111D /* FXChatQuoteFlashView.swift */,
+				FF365592200A15740032111D /* FXChatNewsFlashView.swift */,
+				FF5CB340200C47FB00EB8A57 /* FXChatNewsListView.swift */,
+				FF5CB342200C491400EB8A57 /* FXChatNewsListCell.swift */,
+			);
+			path = FXChatBtnView;
+			sourceTree = "<group>";
+		};
+		FF3655842009B4020032111D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF602D14201C6E3D00D4104D /* UIView.swift */,
+				FF3655852009B41D0032111D /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF8CA0D3201B56CE00845571 /* CommonEntity */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CA0CF201B55AD00845571 /* FXChatFlashEntity.swift */,
+			);
+			path = CommonEntity;
+			sourceTree = "<group>";
+		};
+		FFB3C101200EF005000DA47F /* FXWelcomeView */ = {
+			isa = PBXGroup;
+			children = (
+				FFB3C102200EF193000DA47F /* FXWelcomeView.swift */,
+				FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */,
+			);
+			path = FXWelcomeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF36554E2009A4450032111D /* FXChatViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3655772009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemo" */;
+			buildPhases = (
+				FF36554B2009A4450032111D /* Sources */,
+				FF36554C2009A4450032111D /* Frameworks */,
+				FF36554D2009A4450032111D /* Resources */,
+				FF36558D2009D5190032111D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FXChatViewDemo;
+			productName = FXChatViewDemo;
+			productReference = FF36554F2009A4450032111D /* FXChatViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3655622009A4450032111D /* FXChatViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36557A2009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemoTests" */;
+			buildPhases = (
+				FF36555F2009A4450032111D /* Sources */,
+				FF3655602009A4450032111D /* Frameworks */,
+				FF3655612009A4450032111D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3655652009A4450032111D /* PBXTargetDependency */,
+			);
+			name = FXChatViewDemoTests;
+			productName = FXChatViewDemoTests;
+			productReference = FF3655632009A4450032111D /* FXChatViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF36556D2009A4450032111D /* FXChatViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF36557D2009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemoUITests" */;
+			buildPhases = (
+				FF36556A2009A4450032111D /* Sources */,
+				FF36556B2009A4450032111D /* Frameworks */,
+				FF36556C2009A4450032111D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3655702009A4450032111D /* PBXTargetDependency */,
+			);
+			name = FXChatViewDemoUITests;
+			productName = FXChatViewDemoUITests;
+			productReference = FF36556E2009A4450032111D /* FXChatViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3655472009A4450032111D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = bailun;
+				TargetAttributes = {
+					FF36554E2009A4450032111D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF3655622009A4450032111D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF36554E2009A4450032111D;
+					};
+					FF36556D2009A4450032111D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF36554E2009A4450032111D;
+					};
+				};
+			};
+			buildConfigurationList = FF36554A2009A4450032111D /* Build configuration list for PBXProject "FXChatViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3655462009A4450032111D;
+			productRefGroup = FF3655502009A4450032111D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF36554E2009A4450032111D /* FXChatViewDemo */,
+				FF3655622009A4450032111D /* FXChatViewDemoTests */,
+				FF36556D2009A4450032111D /* FXChatViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF36554D2009A4450032111D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF36555D2009A4450032111D /* LaunchScreen.storyboard in Resources */,
+				FF36555A2009A4450032111D /* Assets.xcassets in Resources */,
+				FF3655582009A4450032111D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3655612009A4450032111D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36556C2009A4450032111D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF36558D2009D5190032111D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Snapkit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF36554B2009A4450032111D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB3C103200EF193000DA47F /* FXWelcomeView.swift in Sources */,
+				FF365591200A03CC0032111D /* FXChatQuoteFlashView.swift in Sources */,
+				FF8CA0D0201B55AD00845571 /* FXChatFlashEntity.swift in Sources */,
+				FF5CB343200C491400EB8A57 /* FXChatNewsListCell.swift in Sources */,
+				FFAB6F7420200F0B00450CE1 /* FXChatSimpleTopView.swift in Sources */,
+				FF3655552009A4450032111D /* ViewController.swift in Sources */,
+				FF3655862009B41D0032111D /* UIColor.swift in Sources */,
+				FF3655832009A5480032111D /* FXChatTopView.swift in Sources */,
+				FFB3C105200F4175000DA47F /* FXWelcomeGroupCell.swift in Sources */,
+				FF365593200A15740032111D /* FXChatNewsFlashView.swift in Sources */,
+				FF5CB341200C47FB00EB8A57 /* FXChatNewsListView.swift in Sources */,
+				FF602D15201C6E3D00D4104D /* UIView.swift in Sources */,
+				FF36558F2009F1C80032111D /* FXChatBtnView.swift in Sources */,
+				FF3655532009A4450032111D /* AppDelegate.swift in Sources */,
+				FFB3C100200EEF9D000DA47F /* RecommendViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36555F2009A4450032111D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3655682009A4450032111D /* FXChatViewDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF36556A2009A4450032111D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3655732009A4450032111D /* FXChatViewDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3655652009A4450032111D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36554E2009A4450032111D /* FXChatViewDemo */;
+			targetProxy = FF3655642009A4450032111D /* PBXContainerItemProxy */;
+		};
+		FF3655702009A4450032111D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF36554E2009A4450032111D /* FXChatViewDemo */;
+			targetProxy = FF36556F2009A4450032111D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3655562009A4450032111D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3655572009A4450032111D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF36555B2009A4450032111D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF36555C2009A4450032111D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3655752009A4460032111D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3655762009A4460032111D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3655782009A4460032111D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FXChatViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3655792009A4460032111D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = FXChatViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF36557B2009A4460032111D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = FXChatViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXChatViewDemo.app/FXChatViewDemo";
+			};
+			name = Debug;
+		};
+		FF36557C2009A4460032111D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = FXChatViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FXChatViewDemo.app/FXChatViewDemo";
+			};
+			name = Release;
+		};
+		FF36557E2009A4460032111D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = FXChatViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FXChatViewDemo;
+			};
+			name = Debug;
+		};
+		FF36557F2009A4460032111D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = FXChatViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.FXChatViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FXChatViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF36554A2009A4450032111D /* Build configuration list for PBXProject "FXChatViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3655752009A4460032111D /* Debug */,
+				FF3655762009A4460032111D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3655772009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3655782009A4460032111D /* Debug */,
+				FF3655792009A4460032111D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36557A2009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36557B2009A4460032111D /* Debug */,
+				FF36557C2009A4460032111D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF36557D2009A4460032111D /* Build configuration list for PBXNativeTarget "FXChatViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF36557E2009A4460032111D /* Debug */,
+				FF36557F2009A4460032111D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3655472009A4450032111D /* Project object */;
+}
