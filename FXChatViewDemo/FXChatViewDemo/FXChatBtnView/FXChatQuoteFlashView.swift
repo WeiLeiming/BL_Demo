@@ -161,6 +161,20 @@ extension FXChatQuoteFlashView {
     }
     
     private func setupUIStyle() {
+        // self
+//        self.layer.shadowColor = UIColor.rgbToColor(r: 107, g: 119, b: 128, a: 0.3).cgColor
+//        self.layer.shadowOpacity = 1
+//        self.layer.shadowOffset = CGSize(width: 2, height: 2)
+//        self.layer.shadowRadius = 2
+        
+        self.layer.shadowColor = UIColor.orange.cgColor//UIColor.rgbToColor(r: 108, g: 141, b: 166, a: 0.3).cgColor
+        self.layer.shadowOpacity = 1
+        self.layer.shadowOffset = CGSize(width: 2.5, height: 2.5)
+        self.layer.shadowRadius = 1.5
+//        self.layer.shadowPath = UIBezierPath(roundedRect: bounds, byRoundingCorners: .bottomRight, cornerRadii: CGSize(width: 0, height: 0)).cgPath
+        self.layer.shouldRasterize = true
+        self.layer.rasterizationScale = self.layer.contentsScale
+        
         // leftDividerLineView
         leftDividerLineView.backgroundColor = dividerLineColor
         // crightDividerLineView
