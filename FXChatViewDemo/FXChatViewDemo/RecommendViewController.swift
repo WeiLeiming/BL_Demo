@@ -30,7 +30,8 @@ class RecommendViewController: UIViewController {
 //            make.left.right.equalTo(self.view)
 //        }
         
-        FXWelcomeView().show()
+//        FXWelcomeView().show()
+        FXGuideView().show()
         
     }
 
@@ -40,7 +41,8 @@ class RecommendViewController: UIViewController {
     }
     
     @IBAction func showWelcomeView(_ sender: UIButton) {
-        FXWelcomeView().show()
+//        FXWelcomeView().show()
+        FXGuideView().show()
     }
     
     /*

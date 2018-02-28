@@ -27,6 +27,7 @@
 		FFB3C100200EEF9D000DA47F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C0FF200EEF9D000DA47F /* RecommendViewController.swift */; };
 		FFB3C103200EF193000DA47F /* FXWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C102200EF193000DA47F /* FXWelcomeView.swift */; };
 		FFB3C105200F4175000DA47F /* FXWelcomeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */; };
+		FFE6BFCE20457FC600D7771C /* FXGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BFCD20457FC600D7771C /* FXGuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		FFB3C0FF200EEF9D000DA47F /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		FFB3C102200EF193000DA47F /* FXWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXWelcomeView.swift; sourceTree = "<group>"; };
 		FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXWelcomeGroupCell.swift; sourceTree = "<group>"; };
+		FFE6BFCD20457FC600D7771C /* FXGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXGuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		FFB3C101200EF005000DA47F /* FXWelcomeView */ = {
 			isa = PBXGroup;
 			children = (
+				FFE6BFCD20457FC600D7771C /* FXGuideView.swift */,
 				FFB3C102200EF193000DA47F /* FXWelcomeView.swift */,
 				FFB3C104200F4175000DA47F /* FXWelcomeGroupCell.swift */,
 			);
@@ -360,6 +363,7 @@
 				FFB3C103200EF193000DA47F /* FXWelcomeView.swift in Sources */,
 				FF365591200A03CC0032111D /* FXChatQuoteFlashView.swift in Sources */,
 				FF8CA0D0201B55AD00845571 /* FXChatFlashEntity.swift in Sources */,
+				FFE6BFCE20457FC600D7771C /* FXGuideView.swift in Sources */,
 				FF5CB343200C491400EB8A57 /* FXChatNewsListCell.swift in Sources */,
 				FFAB6F7420200F0B00450CE1 /* FXChatSimpleTopView.swift in Sources */,
 				FF3655552009A4450032111D /* ViewController.swift in Sources */,

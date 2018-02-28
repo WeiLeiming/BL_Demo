@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6370662044ED2600C88646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370652044ED2600C88646 /* AppDelegate.swift */; };
+		FF6370682044ED2600C88646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370672044ED2600C88646 /* ViewController.swift */; };
+		FF63706B2044ED2600C88646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6370692044ED2600C88646 /* Main.storyboard */; };
+		FF63706D2044ED2600C88646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF63706C2044ED2600C88646 /* Assets.xcassets */; };
+		FF6370702044ED2600C88646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF63706E2044ED2600C88646 /* LaunchScreen.storyboard */; };
+		FF63707B2044ED2600C88646 /* BLStatusBarStyleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63707A2044ED2600C88646 /* BLStatusBarStyleDemoTests.swift */; };
+		FF6370862044ED2600C88646 /* BLStatusBarStyleDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370852044ED2600C88646 /* BLStatusBarStyleDemoUITests.swift */; };
+		FF6370942044EDC500C88646 /* BLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370932044EDC500C88646 /* BLTabBarController.swift */; };
+		FF6370962044EDF000C88646 /* BLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370952044EDF000C88646 /* BLNavigationController.swift */; };
+		FF6370982044EE2A00C88646 /* BLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370972044EE2A00C88646 /* BLViewController.swift */; };
+		FF63709A2044EFBA00C88646 /* BLPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6370992044EFBA00C88646 /* BLPresentViewController.swift */; };
+		FF63709C2044EFC800C88646 /* BLPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF63709B2044EFC700C88646 /* BLPushViewController.swift */; };
+		FF6370A62044F4B500C88646 /* UIAlertController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6370A52044F4B500C88646 /* UIAlertController+StatusBar.m */; };
+		FFE6BFB72044F8C300D7771C /* BLAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BFB62044F8C300D7771C /* BLAlertController.swift */; };
+		FFE6BFB920450C0A00D7771C /* BLImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6BFB820450C0A00D7771C /* BLImagePickerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6370772044ED2600C88646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF63705A2044ED2600C88646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6370612044ED2600C88646;
+			remoteInfo = BLStatusBarStyleDemo;
+		};
+		FF6370822044ED2600C88646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF63705A2044ED2600C88646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6370612044ED2600C88646;
+			remoteInfo = BLStatusBarStyleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6370622044ED2600C88646 /* BLStatusBarStyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLStatusBarStyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6370652044ED2600C88646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF6370672044ED2600C88646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF63706A2044ED2600C88646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF63706C2044ED2600C88646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF63706F2044ED2600C88646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6370712044ED2600C88646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6370762044ED2600C88646 /* BLStatusBarStyleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLStatusBarStyleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF63707A2044ED2600C88646 /* BLStatusBarStyleDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLStatusBarStyleDemoTests.swift; sourceTree = "<group>"; };
+		FF63707C2044ED2600C88646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6370812044ED2600C88646 /* BLStatusBarStyleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLStatusBarStyleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6370852044ED2600C88646 /* BLStatusBarStyleDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLStatusBarStyleDemoUITests.swift; sourceTree = "<group>"; };
+		FF6370872044ED2600C88646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF6370932044EDC500C88646 /* BLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTabBarController.swift; sourceTree = "<group>"; };
+		FF6370952044EDF000C88646 /* BLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLNavigationController.swift; sourceTree = "<group>"; };
+		FF6370972044EE2A00C88646 /* BLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLViewController.swift; sourceTree = "<group>"; };
+		FF6370992044EFBA00C88646 /* BLPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLPresentViewController.swift; sourceTree = "<group>"; };
+		FF63709B2044EFC700C88646 /* BLPushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLPushViewController.swift; sourceTree = "<group>"; };
+		FF6370A42044F4B500C88646 /* UIAlertController+StatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+StatusBar.h"; sourceTree = "<group>"; };
+		FF6370A52044F4B500C88646 /* UIAlertController+StatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+StatusBar.m"; sourceTree = "<group>"; };
+		FF6370A72044F4FA00C88646 /* BLStatusBarStyleDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BLStatusBarStyleDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFE6BFB62044F8C300D7771C /* BLAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLAlertController.swift; sourceTree = "<group>"; };
+		FFE6BFB820450C0A00D7771C /* BLImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLImagePickerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF63705F2044ED2600C88646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6370732044ED2600C88646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63707E2044ED2600C88646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6370592044ED2600C88646 = {
+			isa = PBXGroup;
+			children = (
+				FF6370642044ED2600C88646 /* BLStatusBarStyleDemo */,
+				FF6370792044ED2600C88646 /* BLStatusBarStyleDemoTests */,
+				FF6370842044ED2600C88646 /* BLStatusBarStyleDemoUITests */,
+				FF6370632044ED2600C88646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6370632044ED2600C88646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6370622044ED2600C88646 /* BLStatusBarStyleDemo.app */,
+				FF6370762044ED2600C88646 /* BLStatusBarStyleDemoTests.xctest */,
+				FF6370812044ED2600C88646 /* BLStatusBarStyleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6370642044ED2600C88646 /* BLStatusBarStyleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF6370652044ED2600C88646 /* AppDelegate.swift */,
+				FF6370672044ED2600C88646 /* ViewController.swift */,
+				FF6370692044ED2600C88646 /* Main.storyboard */,
+				FF63706C2044ED2600C88646 /* Assets.xcassets */,
+				FF63706E2044ED2600C88646 /* LaunchScreen.storyboard */,
+				FF6370712044ED2600C88646 /* Info.plist */,
+				FF6370932044EDC500C88646 /* BLTabBarController.swift */,
+				FF6370952044EDF000C88646 /* BLNavigationController.swift */,
+				FF6370972044EE2A00C88646 /* BLViewController.swift */,
+				FF6370992044EFBA00C88646 /* BLPresentViewController.swift */,
+				FF63709B2044EFC700C88646 /* BLPushViewController.swift */,
+				FF6370A42044F4B500C88646 /* UIAlertController+StatusBar.h */,
+				FF6370A52044F4B500C88646 /* UIAlertController+StatusBar.m */,
+				FF6370A72044F4FA00C88646 /* BLStatusBarStyleDemo-Bridging-Header.h */,
+				FFE6BFB62044F8C300D7771C /* BLAlertController.swift */,
+				FFE6BFB820450C0A00D7771C /* BLImagePickerController.swift */,
+			);
+			path = BLStatusBarStyleDemo;
+			sourceTree = "<group>";
+		};
+		FF6370792044ED2600C88646 /* BLStatusBarStyleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF63707A2044ED2600C88646 /* BLStatusBarStyleDemoTests.swift */,
+				FF63707C2044ED2600C88646 /* Info.plist */,
+			);
+			path = BLStatusBarStyleDemoTests;
+			sourceTree = "<group>";
+		};
+		FF6370842044ED2600C88646 /* BLStatusBarStyleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF6370852044ED2600C88646 /* BLStatusBarStyleDemoUITests.swift */,
+				FF6370872044ED2600C88646 /* Info.plist */,
+			);
+			path = BLStatusBarStyleDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6370612044ED2600C88646 /* BLStatusBarStyleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63708A2044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemo" */;
+			buildPhases = (
+				FF63705E2044ED2600C88646 /* Sources */,
+				FF63705F2044ED2600C88646 /* Frameworks */,
+				FF6370602044ED2600C88646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLStatusBarStyleDemo;
+			productName = BLStatusBarStyleDemo;
+			productReference = FF6370622044ED2600C88646 /* BLStatusBarStyleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6370752044ED2600C88646 /* BLStatusBarStyleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF63708D2044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemoTests" */;
+			buildPhases = (
+				FF6370722044ED2600C88646 /* Sources */,
+				FF6370732044ED2600C88646 /* Frameworks */,
+				FF6370742044ED2600C88646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6370782044ED2600C88646 /* PBXTargetDependency */,
+			);
+			name = BLStatusBarStyleDemoTests;
+			productName = BLStatusBarStyleDemoTests;
+			productReference = FF6370762044ED2600C88646 /* BLStatusBarStyleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF6370802044ED2600C88646 /* BLStatusBarStyleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6370902044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemoUITests" */;
+			buildPhases = (
+				FF63707D2044ED2600C88646 /* Sources */,
+				FF63707E2044ED2600C88646 /* Frameworks */,
+				FF63707F2044ED2600C88646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6370832044ED2600C88646 /* PBXTargetDependency */,
+			);
+			name = BLStatusBarStyleDemoUITests;
+			productName = BLStatusBarStyleDemoUITests;
+			productReference = FF6370812044ED2600C88646 /* BLStatusBarStyleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF63705A2044ED2600C88646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = bailun;
+				TargetAttributes = {
+					FF6370612044ED2600C88646 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					FF6370752044ED2600C88646 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF6370612044ED2600C88646;
+					};
+					FF6370802044ED2600C88646 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF6370612044ED2600C88646;
+					};
+				};
+			};
+			buildConfigurationList = FF63705D2044ED2600C88646 /* Build configuration list for PBXProject "BLStatusBarStyleDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF6370592044ED2600C88646;
+			productRefGroup = FF6370632044ED2600C88646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6370612044ED2600C88646 /* BLStatusBarStyleDemo */,
+				FF6370752044ED2600C88646 /* BLStatusBarStyleDemoTests */,
+				FF6370802044ED2600C88646 /* BLStatusBarStyleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6370602044ED2600C88646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6370702044ED2600C88646 /* LaunchScreen.storyboard in Resources */,
+				FF63706D2044ED2600C88646 /* Assets.xcassets in Resources */,
+				FF63706B2044ED2600C88646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6370742044ED2600C88646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63707F2044ED2600C88646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF63705E2044ED2600C88646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63709C2044EFC800C88646 /* BLPushViewController.swift in Sources */,
+				FF6370982044EE2A00C88646 /* BLViewController.swift in Sources */,
+				FF6370682044ED2600C88646 /* ViewController.swift in Sources */,
+				FFE6BFB920450C0A00D7771C /* BLImagePickerController.swift in Sources */,
+				FFE6BFB72044F8C300D7771C /* BLAlertController.swift in Sources */,
+				FF6370962044EDF000C88646 /* BLNavigationController.swift in Sources */,
+				FF6370942044EDC500C88646 /* BLTabBarController.swift in Sources */,
+				FF63709A2044EFBA00C88646 /* BLPresentViewController.swift in Sources */,
+				FF6370A62044F4B500C88646 /* UIAlertController+StatusBar.m in Sources */,
+				FF6370662044ED2600C88646 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6370722044ED2600C88646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF63707B2044ED2600C88646 /* BLStatusBarStyleDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF63707D2044ED2600C88646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6370862044ED2600C88646 /* BLStatusBarStyleDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6370782044ED2600C88646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6370612044ED2600C88646 /* BLStatusBarStyleDemo */;
+			targetProxy = FF6370772044ED2600C88646 /* PBXContainerItemProxy */;
+		};
+		FF6370832044ED2600C88646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF6370612044ED2600C88646 /* BLStatusBarStyleDemo */;
+			targetProxy = FF6370822044ED2600C88646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6370692044ED2600C88646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF63706A2044ED2600C88646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF63706E2044ED2600C88646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF63706F2044ED2600C88646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6370882044ED2600C88646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF6370892044ED2600C88646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF63708B2044ED2600C88646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLStatusBarStyleDemo/BLStatusBarStyleDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF63708C2044ED2600C88646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BLStatusBarStyleDemo/BLStatusBarStyleDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF63708E2044ED2600C88646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLStatusBarStyleDemo.app/BLStatusBarStyleDemo";
+			};
+			name = Debug;
+		};
+		FF63708F2044ED2600C88646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLStatusBarStyleDemo.app/BLStatusBarStyleDemo";
+			};
+			name = Release;
+		};
+		FF6370912044ED2600C88646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLStatusBarStyleDemo;
+			};
+			name = Debug;
+		};
+		FF6370922044ED2600C88646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQVPLJE24J;
+				INFOPLIST_FILE = BLStatusBarStyleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bailun.BLStatusBarStyleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLStatusBarStyleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF63705D2044ED2600C88646 /* Build configuration list for PBXProject "BLStatusBarStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6370882044ED2600C88646 /* Debug */,
+				FF6370892044ED2600C88646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63708A2044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63708B2044ED2600C88646 /* Debug */,
+				FF63708C2044ED2600C88646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF63708D2044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF63708E2044ED2600C88646 /* Debug */,
+				FF63708F2044ED2600C88646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6370902044ED2600C88646 /* Build configuration list for PBXNativeTarget "BLStatusBarStyleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6370912044ED2600C88646 /* Debug */,
+				FF6370922044ED2600C88646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF63705A2044ED2600C88646 /* Project object */;
+}
