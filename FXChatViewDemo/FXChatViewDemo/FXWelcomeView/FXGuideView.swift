@@ -15,9 +15,9 @@ class FXGuideView: UIView {
     lazy var guideImageView: UIImageView = {
         let imageView = UIImageView()
 //        if UIDevice.iPhoneX() {
-//            imageView.image = UIImage(named: "welcome_guide_iphonex")//R.image.welcome_guide_iphonex()
+            imageView.image = UIImage(named: "welcome_guide_iphonex")//R.image.welcome_guide_iphonex()
 //        } else {
-            imageView.image = UIImage(named: "welcome_guide")//R.image.welcome_guide()
+//            imageView.image = UIImage(named: "welcome_guide")//R.image.welcome_guide()
 //        }
         return imageView
     }()
@@ -60,8 +60,8 @@ extension FXGuideView {
             make.width.equalTo(80)
             make.height.equalTo(33)
             make.centerX.equalTo(guideImageView)
-            make.bottom.equalTo(guideImageView.snp.bottom).offset(-271.5 * UIScreen.main.bounds.size.width / 375)
-//            make.bottom.equalTo(guideImageView.snp.bottom).offset(-344)
+//            make.bottom.equalTo(guideImageView.snp.bottom).offset(-291 * UIScreen.main.bounds.size.width / 375)
+            make.bottom.equalTo(guideImageView.snp.bottom).offset(-357)
         }
     }
     

@@ -4,24 +4,13 @@ import UIKit
 
 var str = "1122221555521681654168"
 
+let urlStr = "https://itunes.apple.com/cn/app/汇信-fx110官方出品/id1339520994?l=zh&ls=1&mt=8"
+let encodeUrlStr = urlStr.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+print(encodeUrlStr)
+
 //let range = str.range(of: "He")
 // Range
 //print(range)
-
-class NumClass {
-    var num = 1
-    
-}
-let numClass = NumClass()
-var num1 = [numClass,2,3,4] as [Any]
-var num2 = [numClass,2,3,4] as [Any]
-
-if num1 == num2 {
-    print("num1、num2相等")
-} else{
-    print("num1、num2不等")
-}
-
 
 let attrstring = NSMutableAttributedString(string: str)
 var ocStr = NSString(string: str)
